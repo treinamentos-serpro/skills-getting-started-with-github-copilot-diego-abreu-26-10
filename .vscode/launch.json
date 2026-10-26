@@ -11,6 +11,8 @@
       "module": "uvicorn",
       "args": [
         "src.app:app",
+        "--port",
+        "8001",
         "--reload",
         "--reload-include",
         "src/static/*"

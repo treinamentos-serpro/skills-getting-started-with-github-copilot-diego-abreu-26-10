@@ -6,6 +6,7 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
 
 - Visualizar todas as atividades extracurriculares disponíveis
 - Inscrever-se em atividades
+- Remover estudantes inscritos de atividades
 
 ## Primeiros Passos
 
@@ -22,8 +23,8 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
    ```
 
 3. Abra seu navegador e acesse:
-   - Documentação da API: http://localhost:8000/docs
-   - Documentação alternativa: http://localhost:8000/redoc
+   - Documentação da API: http://localhost:8001/docs
+   - Documentação alternativa: http://localhost:8001/redoc
 
 ## Endpoints da API
 
@@ -31,6 +32,7 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
 | ------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | GET    | `/activities`                                                     | Obtém todas as atividades com seus detalhes e contagem atual de participantes |
 | POST   | `/activities/{activity_name}/signup?email=student@mergington.edu` | Inscreve-se em uma atividade                                                |
+| DELETE | `/activities/{activity_name}/signup?email=student@mergington.edu` | Remove a inscrição de um estudante                                          |
 
 ## Modelo de Dados
 
