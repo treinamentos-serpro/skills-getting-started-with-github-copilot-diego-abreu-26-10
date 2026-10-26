@@ -79,7 +79,7 @@ Vamos iniciar nosso ambiente de desenvolvimento, usar o Copilot para aprender um
 
 1. Queremos ver nossa página web rodando em um navegador, então vamos encontrar a URL e a porta. Se não estiver visível, expanda o painel inferior e selecione a aba **Ports**.
 
-1. Na lista, encontre a porta `8000` e o link relacionado. Passe o mouse sobre o link e selecione o ícone **Open in browser**.
+1. Na lista, encontre a porta `8001` e o link relacionado. Passe o mouse sobre o link e selecione o ícone **Open in browser**.
 
    ![image](https://github.com/treinamentos-serpro/skills-getting-started-with-github-copilot-diego-abreu-26-10/blob/main/.github/images/open-in-browser-icon.png?raw=true)
 

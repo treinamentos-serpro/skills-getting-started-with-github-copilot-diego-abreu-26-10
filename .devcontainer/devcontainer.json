@@ -1,7 +1,7 @@
 {
   "name": "Python 3",
   "image": "mcr.microsoft.com/devcontainers/python:3.13",
-  "forwardPorts": [8000],
+  "forwardPorts": [8001],
   "postCreateCommand": "pip install -r requirements.txt",
   "customizations": {
     "vscode": {
